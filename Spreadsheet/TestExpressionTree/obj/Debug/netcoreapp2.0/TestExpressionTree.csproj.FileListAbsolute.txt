@@ -1,0 +1,26 @@
+C:\Users\Vit\Desktop\CPTS321\Spreadsheet\TestExpressionTree\bin\Debug\netcoreapp2.0\TestExpressionTree.deps.json
+C:\Users\Vit\Desktop\CPTS321\Spreadsheet\TestExpressionTree\bin\Debug\netcoreapp2.0\TestExpressionTree.runtimeconfig.json
+C:\Users\Vit\Desktop\CPTS321\Spreadsheet\TestExpressionTree\bin\Debug\netcoreapp2.0\TestExpressionTree.runtimeconfig.dev.json
+C:\Users\Vit\Desktop\CPTS321\Spreadsheet\TestExpressionTree\bin\Debug\netcoreapp2.0\TestExpressionTree.dll
+C:\Users\Vit\Desktop\CPTS321\Spreadsheet\TestExpressionTree\bin\Debug\netcoreapp2.0\TestExpressionTree.pdb
+C:\Users\Vit\Desktop\CPTS321\Spreadsheet\TestExpressionTree\bin\Debug\netcoreapp2.0\SpreadsheetEngine.dll
+C:\Users\Vit\Desktop\CPTS321\Spreadsheet\TestExpressionTree\bin\Debug\netcoreapp2.0\SpreadsheetEngine.pdb
+C:\Users\Vit\Desktop\CPTS321\Spreadsheet\TestExpressionTree\obj\Debug\netcoreapp2.0\TestExpressionTree.csprojResolveAssemblyReference.cache
+C:\Users\Vit\Desktop\CPTS321\Spreadsheet\TestExpressionTree\obj\Debug\netcoreapp2.0\TestExpressionTree.csproj.CoreCompileInputs.cache
+C:\Users\Vit\Desktop\CPTS321\Spreadsheet\TestExpressionTree\obj\Debug\netcoreapp2.0\TestExpressionTree.AssemblyInfoInputs.cache
+C:\Users\Vit\Desktop\CPTS321\Spreadsheet\TestExpressionTree\obj\Debug\netcoreapp2.0\TestExpressionTree.AssemblyInfo.cs
+C:\Users\Vit\Desktop\CPTS321\Spreadsheet\TestExpressionTree\obj\Debug\netcoreapp2.0\TestExpressionTree.dll
+C:\Users\Vit\Desktop\CPTS321\Spreadsheet\TestExpressionTree\obj\Debug\netcoreapp2.0\TestExpressionTree.pdb
+C:\Users\Vit\Desktop\CPTS 321\cs321-vtrach\Spreadsheet\TestExpressionTree\bin\Debug\netcoreapp2.0\TestExpressionTree.deps.json
+C:\Users\Vit\Desktop\CPTS 321\cs321-vtrach\Spreadsheet\TestExpressionTree\bin\Debug\netcoreapp2.0\TestExpressionTree.runtimeconfig.json
+C:\Users\Vit\Desktop\CPTS 321\cs321-vtrach\Spreadsheet\TestExpressionTree\bin\Debug\netcoreapp2.0\TestExpressionTree.runtimeconfig.dev.json
+C:\Users\Vit\Desktop\CPTS 321\cs321-vtrach\Spreadsheet\TestExpressionTree\bin\Debug\netcoreapp2.0\TestExpressionTree.dll
+C:\Users\Vit\Desktop\CPTS 321\cs321-vtrach\Spreadsheet\TestExpressionTree\bin\Debug\netcoreapp2.0\TestExpressionTree.pdb
+C:\Users\Vit\Desktop\CPTS 321\cs321-vtrach\Spreadsheet\TestExpressionTree\bin\Debug\netcoreapp2.0\SpreadsheetEngine.dll
+C:\Users\Vit\Desktop\CPTS 321\cs321-vtrach\Spreadsheet\TestExpressionTree\bin\Debug\netcoreapp2.0\SpreadsheetEngine.pdb
+C:\Users\Vit\Desktop\CPTS 321\cs321-vtrach\Spreadsheet\TestExpressionTree\obj\Debug\netcoreapp2.0\TestExpressionTree.csprojResolveAssemblyReference.cache
+C:\Users\Vit\Desktop\CPTS 321\cs321-vtrach\Spreadsheet\TestExpressionTree\obj\Debug\netcoreapp2.0\TestExpressionTree.csproj.CoreCompileInputs.cache
+C:\Users\Vit\Desktop\CPTS 321\cs321-vtrach\Spreadsheet\TestExpressionTree\obj\Debug\netcoreapp2.0\TestExpressionTree.AssemblyInfoInputs.cache
+C:\Users\Vit\Desktop\CPTS 321\cs321-vtrach\Spreadsheet\TestExpressionTree\obj\Debug\netcoreapp2.0\TestExpressionTree.AssemblyInfo.cs
+C:\Users\Vit\Desktop\CPTS 321\cs321-vtrach\Spreadsheet\TestExpressionTree\obj\Debug\netcoreapp2.0\TestExpressionTree.dll
+C:\Users\Vit\Desktop\CPTS 321\cs321-vtrach\Spreadsheet\TestExpressionTree\obj\Debug\netcoreapp2.0\TestExpressionTree.pdb

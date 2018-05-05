@@ -1,0 +1,76 @@
+CREATE TABLE YELP_BUSINESS(
+bid CHAR(22),
+name TEXT,
+Address TEXT,
+State CHAR(2),
+City VARCHAR(30),
+Latitude FLOAT,
+Longitude FLOAT,
+Stars FLOAT,
+ReviewCount INTEGER,
+OpenStatus BOOLEAN,
+Categories TEXT[],
+hours TEXT[][],
+checkins INTEGER default 0,
+PRIMARY KEY (BID)
+);
+
+COPY YELP_BUSINESS(bid, name, address, state, city, latitude, longitude, stars, reviewcount, openstatus, categories, hours) 
+FROM 'enter filepath' DELIMITER '	'
+
+
+CREATE TABLE YELP_USER(
+UID text,
+name text,
+yelpingSince varchar(10),
+stars FLOAT,
+Fans INTEGER,
+ReviewCount INTEGER,
+Friends text[],
+CoolVotes INTEGER,
+FunnyVotes INTEGER,
+UsefulVotes INTEGER,
+PRIMARY KEY (UID)
+);
+
+copy YELP_USER(UID, name, yelpingsince, stars, fans, reviewcount, friends, coolvotes, funnyvotes, usefulvotes) 
+FROM 'enter filepath' DELIMITER '	' csv;
+
+CREATE TABLE YELP_CHECKINS(
+BID CHAR(22),
+Monday INTEGER[4],
+Tuesday INTEGER[4],
+Wednesday INTEGER[4],
+Thursday INTEGER[4],
+Friday INTEGER[4],
+Saturday INTEGER[4],
+Sunday INTEGER[4],
+PRIMARY KEY (BID),
+FOREIGN KEY (BID) REFERENCES YELP_BUSINESS (BID)
+);
+
+COPY YELP_CHECKINS(bid, monday, tuesday, wednesday, thursday, friday, saturday, sunday) 
+FROM 'enter filepath' DELIMITER '	' csv;
+
+CREATE TABLE YELP_TIP(
+TID SERIAL,
+BID text,
+UID text,
+Tip text,
+date text,
+likes INTEGER,
+PRIMARY KEY (TID),
+FOREIGN KEY (BID) REFERENCES YELP_BUSINESS (BID),
+FOREIGN KEY (UID) REFERENCES YELP_USER (UID)
+);
+
+copy YELP_TIP(uid, tip, bid, date, likes) 
+FROM 'enter filepath';
+
+CREATE TABLE YELP_ACCOUNT(
+username TEXT,
+password CHAR(30),
+bid CHAR(22),
+PRIMARY KEY (username),
+FOREIGN KEY (bid) REFERENCES YELP_BUSINESS (bid)
+);

@@ -1,0 +1,12 @@
+﻿<Window x:Name="tipsWindow" x:Class="Milestone_2.TipsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Milestone_2"
+        mc:Ignorable="d"
+        Title="TipsWindow" Height="600" Width="920" Background="#FFE79999" Opacity="0.91">
+    <Grid>
+        <DataGrid x:Name="tipsForBusinessDataGrid" Margin="10,10,9.6,10.4" Opacity="0.95" HorizontalGridLinesBrush="#FF340C0C" IsReadOnly="True"/>        
+    </Grid>
+</Window>

@@ -1,0 +1,35 @@
+-- Removing an element from an array
+CREATE OR REPLACE FUNCTION array_remove(arr ANYARRAY, values_to_remove ANYARRAY)
+RETURNS ANYARRAY AS
+$$
+	WITH rowz AS (
+		SELECT unnest(arr)
+		EXCEPT
+			SELECT unnest(values_to_remove)
+	) SELECT array_agg(unnest) FROM rowz;
+$$ LANGUAGE sql 
+
+-- Function trigger that runs when an update
+-- has occured in the yelp_user table.
+-- It checks if there are any users whose
+-- friends list is 'null', it then replaces
+-- it with '{}'
+CREATE OR REPLACE FUNCTION UpdateEmptyFriends() RETURNS trigger as 
+$$
+BEGIN
+	if((SELECT count(*) FROM yelp_user where friends is null) > 0) THEN
+		update yelp_user
+		set friends = '{}'
+		WHERE friends IS null;
+	end if;
+	return old;
+end
+$$
+LANGUAGE plpgsql;
+
+-- Trigger for any update on yelp_user table
+CREATE TRIGGER updateNullFriends
+AFTER UPDATE ON yelp_user
+EXECUTE PROCEDURE UpdateEmptyFriends()
+
+
